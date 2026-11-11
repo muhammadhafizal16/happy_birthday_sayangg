@@ -10,8 +10,8 @@ document.getElementById("letterName").textContent = CONFIG.namaPanggilan;
 document.getElementById("senderName").textContent = CONFIG.namaKamu;
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Hitung mundur menuju ulang tahun Bunga: 6 Desember 2026 pukul 00.00 waktu lokal.
-const birthdayDate = new Date(2026, 11, 6, 0, 0, 0);
+// Hitung mundur menuju ulang tahun Bunga: 8 Desember 2026 pukul 00.00 waktu lokal.
+const birthdayDate = new Date(2026, 11, 8, 0, 0, 0);
 function updateCountdown() {
   const now = new Date();
   const distance = birthdayDate.getTime() - now.getTime();
